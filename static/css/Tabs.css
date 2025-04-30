@@ -1,0 +1,36 @@
+.Tabs {
+    display: flex;
+    justify-content: space-between
+}
+
+.Tabs-item {
+    padding: .625rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.Tabs-item_active {
+    font-weight: 700;
+    color: red
+}
+
+.Tabs-sorts {
+    display: flex;
+    flex-direction: column;
+    margin-left: .15625rem
+}
+
+.Tabs-sorts_item {
+    width: .625rem;
+    height: .46875rem
+}
+
+.Tabs-sorts_up {
+    /*pointer-events: none;*/
+}
+
+.Tabs-sorts_down {
+    transform: rotate(180deg);
+    /*pointer-events: none;*/
+}
